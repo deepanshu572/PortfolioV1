@@ -5,7 +5,7 @@ import html from '../assets/html.svg'
 import css from '../assets/css.svg'
 import js from '../assets/js.svg'
 import robot from '../assets/robot.png'
-import kalam from '../assets/Kalam.png'
+import kalam from '../assets/kalam.png'
 import mygalla from '../assets/mygalla.png'
 import yt from '../assets/yt.png'
 
