@@ -4,11 +4,10 @@ const Footer = () => {
   return (
     <div className="footer">
             <div className="foot1">
-                 <p>Copyright © 2023. All rights are reserved</p>
+                 <p>Copyright © 2025. All rights are reserved</p>
             </div>
            <div className="foot2">
-            <i className="fa-brands fa-linkedin"></i>
-            <i className="fa-brands fa-github"></i>
+            <p>Designed By DK</p>
            </div>
             
         </div>

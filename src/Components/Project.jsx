@@ -23,14 +23,17 @@ const Project = () => {
             <div className="projects-box" >
                 
                 <div className="project1" id="project1">
-                    
+                
+                <div className="circle circle2">
+                </div>
                     <div className="right">
+                        
                         <div className="head_name">
                         <h1>Robotic Branding Website </h1>
                     </div>
                         <p> I developed a responsive and optimized website for Robotic Branding using React.js and Tailwind CSS, focused on modern web design, clean UI, and a smooth user experience..</p>
-                        <div className="needs">
-                            <div className="needs_skills_img">
+                        <div className="needs ">
+                            <div className="needs_skills_img react">
                                 <img src={reactLogo} alt=""/>
 
                                 <p>React</p>
@@ -60,6 +63,8 @@ const Project = () => {
                        </div>
                 </div>
                 <div className="project1"  id="project2">
+                    <div className="circle circle1">
+                </div>
                     <div className="left">
                      <a  target="_blank" href="https://www.kalamacademy.org/"><img className="imdb" src={kalam} alt=""/></a>   
                     </div>
@@ -97,7 +102,8 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="project1"  id="project3">
-                    
+                <div className="circle circle2">
+                </div>
                     <div className="right">
                         <b>myGalla </b>
                         <p> I built a responsive app branding website for myGalla using HTML, Core CSS, and Vanilla JavaScript, without using any libraries. The project focused on clean design, performance optimization, and a smooth user experience.</p>
@@ -135,14 +141,14 @@ const Project = () => {
                        </div>
                 </div>
                 <div className="project1"  id="project4">
+                <div className="circle circle1">
+                </div>
                     <div className="left">
                      <a  target="_blank" href="https://you-tube-v3.vercel.app/"><img className="yt" src={yt} alt=""/></a>   
                     </div>
                     <div className="right">
                         <b>Youtube Clone</b>
-                        <p> A car rental website is an online platform that allows users to rent cars for personal or
-                            business use. The website provides an interface for searching, comparing, and reserving
-                            cars.</p>
+                        <p> Developed a fully responsive YouTube Clone using React and the YouTube API. Implemented key features such as video search, video playback, channel details, and related video suggestions. Focused on clean UI, efficient state management, and API integration to mimic the core functionalities of YouTube.</p>
                             <div className="needs">
                                 <div className="needs_skills_img">
                                     <img src={reactLogo} alt=""/>

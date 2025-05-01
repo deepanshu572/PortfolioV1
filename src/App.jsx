@@ -12,6 +12,8 @@ import Project from "./Components/Project";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+// import ScrollTrigger from "gsap/ScrollTrigger";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,18 +69,21 @@ function App() {
         .from(".flex-span div", { opacity: 0, y: 10, stagger: 0.1 }, "sameTime")
         .from(".flex-name p", { opacity: 0, y: 10, duration: 1 }, "sameTime")
         .from(".skills p", { opacity: 0, x: -10, duration: 1 }, "sameTime")
+        .from(".img1", {opacity: 0,  y: 15, duration: 1.2, stagger: 0.2 }, "sameTime")
+        .to(".img1", {opacity: 2 ,duration: 1.2, stagger: 0.2 }, "sameTime")
         .from(
-          ".image-flex .img1",
-          { opacity: 0, y: -10, duration: 1.2, stagger: 0.2 },
+          ".img_box h6",
+          { opacity: 0, y: 15, duration: 1.2, stagger: 0.2 },
           "sameTime"
-        );
+        )
 
-    gsap.from(".about-text small , .about-text b , .about-text p", {
+
+    gsap.from(".box_content h4 , .box_content p , .box_eduction b", {
       opacity: 0,
       duration: 1.2,
       stagger: 0.2,
       scrollTrigger: {
-        trigger: ".about-text",
+        trigger: ".box_eduction",
         scroller: "body",
         start: "top 80%",
         end: "top 20%",
