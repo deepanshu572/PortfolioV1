@@ -78,9 +78,10 @@ function App() {
         // )
 
 
-    gsap.from(".box_content h4 , .box_content p , .box_eduction b", {
+    gsap.from(".box_content h4 , .box_content p , .box_eduction b ,education b", {
       opacity: 0,
       duration: 1.2,
+      x : 50,
       stagger: 0.2,
       scrollTrigger: {
         trigger: ".box_eduction",
