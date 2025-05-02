@@ -70,12 +70,12 @@ function App() {
         .from(".flex-name p", { opacity: 0, y: 10, duration: 1 }, "sameTime")
         .from(".skills p", { opacity: 0, x: -10, duration: 1 }, "sameTime")
         .from(".img1", {opacity: 0,  y: 15, duration: 1.2, stagger: 0.2 }, "sameTime")
-        .to(".img1", {opacity: 2 ,duration: 1.2, stagger: 0.2 }, "sameTime")
-        .from(
-          ".img_box h6",
-          { opacity: 0, y: 15, duration: 1.2, stagger: 0.2 },
-          "sameTime"
-        )
+        .to(".img1", {opacity: 2 , y: 0,duration: 1.2, stagger: 0.2 }, "sameTime")
+        // .from(
+        //   ".img_box h6",
+        //   { opacity: 0, y: 15, duration: 1.2, stagger: 0.2 },
+        //   "sameTime"
+        // )
 
 
     gsap.from(".box_content h4 , .box_content p , .box_eduction b", {
@@ -154,6 +154,31 @@ function App() {
     ["#project1", "#project2", "#project3", "#project4"].forEach(
       createProjectAnimation
     );
+
+    gsap.from(".left_contact small , .left_contact p , .more-details p", {
+      opacity: 0,
+      duration: 1.2,
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: ".left_contact",
+        scroller: "body",
+        start: "top 80%",
+        end: "top 20%",
+        scrub: true,
+      },
+    }),
+      gsap.from(".right_contact img", {
+        opacity: 0,
+        duration: 0.91,
+        x: 50,
+        scrollTrigger: {
+          trigger: ".right_contact",
+          scroller: "body",
+          start: "top 80%",
+          end: "top 20%",
+          scrub: true,
+        },
+      });
   });
 
   function coursourAnimation() {

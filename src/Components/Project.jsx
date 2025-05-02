@@ -1,6 +1,6 @@
 import React from 'react'
 import reactLogo from '../assets/react.svg'
-import talwind from '../assets/talwind.png'
+import talwind from '../assets/talwind.svg'
 import html from '../assets/html.svg'
 import css from '../assets/css.svg'
 import js from '../assets/js.svg'

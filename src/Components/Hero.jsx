@@ -4,8 +4,8 @@ import people from "../assets/portolio.jpeg";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import js from "../assets/js.svg";
-import bootstrap from "../assets/bootstrap.jpg";
-import talwind from "../assets/talwind.png";
+import bootstrap from "../assets/bootstrap.svg";
+import talwind from "../assets/talwind.svg";
 import Gsap from "../assets/Gsap.png";
 import hand from "../assets/hand.png";
 import materialUi from "../assets/materialUi.png";
@@ -30,7 +30,7 @@ const Hero = () => {
       />
       <div className="name">
         <div className="name1">
-          <div className="circle circle1"></div>
+          {/* <div className="circle circle1"></div> */}
           <div className="circle circle2"></div>
           <div className="flex-img">
             <img src={people} alt="" />

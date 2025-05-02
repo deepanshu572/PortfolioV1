@@ -1,8 +1,10 @@
 import React from 'react'
+import laptop from '../assets/laptop.png'
 
 const Contact = () => {
   return (
     <div className="contact" id="Contact">
+      <div className="left_contact">
     <small>CONTACT</small> <br/>
     <b>Don't be shy! Hit me up! 👇</b>
     <span>
@@ -32,6 +34,10 @@ const Contact = () => {
    <p className="d2">krdeepanshu572@gmail.com</p> 
     </div>
     </span>
+    </div>
+    <div className="right_contact">
+      <img src={laptop} alt="" />
+    </div>
 </div>
   )
 }
