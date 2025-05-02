@@ -60,8 +60,11 @@ function App() {
         duration: 0.71,
         scrub: 1,
         y: "-100vh",
-        display: "none",
+        onComplete: () => {
+          document.body.style.overflowY = "scroll";
+        }
       }),
+      
       tl
         .from(".flex-img img", { opacity: 0, y: 3, duration: 1 }, "sameTime")
         .from(".head1 h1", { y: 100, duration: 1, opacity: 0 }, "sameTime")
