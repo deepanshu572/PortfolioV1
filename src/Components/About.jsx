@@ -58,6 +58,15 @@ const About = () => {
               <p>My UI design was selected in the first round of the React Frontend Developer interview at Cordiela, a Mumbai-based IT company, highlighting my skills in UI/UX and component-based design.]</p>
             </div>
             </div>
+            {/* <div className="contact_info">
+                <b className="head_box">Contact  🚩</b>
+            <div className="box_content">
+              <h4>Don't be shy! Hit me up! 👇</h4>
+              <p>github - https://github.com/deepanshu572/</p>
+              <p>Linkdin - https://github.com/deepanshu572/</p>
+              <p>facebook - https://github.com/deepanshu572/</p>
+            </div>
+            </div> */}
           </div>
           </div>
         {/* <div className="about-text">

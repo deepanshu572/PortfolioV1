@@ -1,10 +1,14 @@
 import React from 'react'
 import laptop from '../assets/laptop.png'
+import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { TbBrandLinkedinFilled } from "react-icons/tb";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Contact = () => {
   return (
     <div className="contact" id="Contact">
-      <div className="left_contact">
+      {/* <div className="left_contact">
     <small>CONTACT</small> <br/>
     <b>Don't be shy! Hit me up! 👇</b>
     <span>
@@ -34,10 +38,44 @@ const Contact = () => {
    <p className="d2">krdeepanshu572@gmail.com</p> 
     </div>
     </span>
-    </div>
+    </div> */}
     <div className="right_contact">
       <img src={laptop} alt="" />
+      
     </div>
+    <div className="right_text">
+      <small>CONTACT</small>
+      <div className="contact_holder location">
+        <h1>Address</h1>
+        <p>Dr colony rims J block bariatu ranchi ,India</p>
+        <p>krdeepanshu572@gmail.com</p>
+
+      </div>
+      {/* <div className="contact_holder mail">
+        <h1>Address</h1>
+        <p>Dr colony rimd J block bariatu ranchi ,India</p>
+
+      </div> */}
+       <div className="contact_holder additional linkdin">
+      <TbBrandLinkedinFilled />
+        <h3>Linkedin</h3>
+      </div>
+      <div className="contact_holder additional git">
+      <FaGithub />
+        <h3>Github</h3>
+      </div>
+     
+      <div className="contact_holder additional facebook">
+      <FaFacebook />
+
+        <h3>Facebook</h3>
+      </div>
+      <div className="contact_holder additional insta">
+      <AiFillInstagram />
+
+        <h3>Instagram</h3>
+      </div>
+      </div>
 </div>
   )
 }

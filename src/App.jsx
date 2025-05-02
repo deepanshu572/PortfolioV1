@@ -155,12 +155,26 @@ function App() {
       createProjectAnimation
     );
 
-    gsap.from(".left_contact small , .left_contact p , .more-details p", {
+    gsap.from(".contact_holder p , .contact_holder h1", {
       opacity: 0,
       duration: 1.2,
       stagger: 0.2,
       scrollTrigger: {
-        trigger: ".left_contact",
+        trigger: ".contact_holder",
+        scroller: "body",
+        start: "top 80%",
+        end: "top 20%",
+        scrub: true,
+      },
+    }),
+
+    gsap.from(".additional svg , .additional h3", {
+      opacity: 0,
+      // duration: 1.2,
+      stagger: 0.2,
+      x: -50,
+      scrollTrigger: {
+        trigger: ".additional",
         scroller: "body",
         start: "top 80%",
         end: "top 20%",
