@@ -11,6 +11,7 @@ import yt from '../assets/yt.png'
 
 
 const Project = () => {
+
   return (
     <div className="project" id="Project">
             <div className="project_about">
@@ -45,7 +46,7 @@ const Project = () => {
                         </div>
                         <div className="source">
                         
-                        <a  target="_blank" href="https://robotic-branding.vercel.app/">
+                        <a  target="_blank" href="https://robotbranding-v3.vercel.app/">
                             <span>
                                 Live demo
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -59,7 +60,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="left">
-                        <a  target="_blank" href="https://robotic-branding.vercel.app/"><img className="imdb" src={robot} alt=""/></a>   
+                        <a  target="_blank" href="https://robotbranding-v3.vercel.app/"><img className="imdb" src={robot} alt=""/></a>   
                        </div>
                 </div>
                 <div className="project1"  id="project2">

@@ -647,7 +647,7 @@ font-family: "Special Gothic Expanded One", sans-serif !important;
   width: 100%;
   height: 100%;
   left: 0;
-  padding: 0px 40px;
+  padding: 0px 92px;
 
 }
 .logo {
@@ -679,6 +679,7 @@ font-family: "Special Gothic Expanded One", sans-serif !important;
   align-items: start;
   flex-direction: column;
   top: 55%;
+  /* padding-left: 5rem; */
 }
 .linkdin{
   right: 0;
