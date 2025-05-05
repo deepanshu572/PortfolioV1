@@ -667,6 +667,7 @@ font-family: "Special Gothic Expanded One", sans-serif !important;
 .contact_holder h3{
   font-size: 15px;
 }
+
 .git{
   right: 0;
   top: 32%;
@@ -679,6 +680,7 @@ font-family: "Special Gothic Expanded One", sans-serif !important;
   align-items: start;
   flex-direction: column;
   top: 55%;
+  padding: 0 !important;
   /* padding-left: 5rem; */
 }
 .linkdin{
@@ -852,7 +854,25 @@ a.nav-link {
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+  .contact_holder {
+    padding: 10px 39px;
+
+  }
+  .right_text{
+    position: unset;
+    padding: 0 20px;
+  }
+  .contact_holder h3{
+    display: none;
+  }
+  .location{
+    position: unset;
+  }
+  .right_contact{
+    position: relative;
+    right: -15%;
+  }
   a.nav-link {
     padding: 0.75rem 0;
     font-size: 23px;
@@ -998,7 +1018,13 @@ a.nav-link {
   }
 
   .footer {
-      padding: 57px 45px;
+      padding: 15px 15px;
+      padding-top: 67px;
+      flex-direction: column;
+      gap: 16px;
+  }
+  .footer p{
+    font-size: 13px;
   }
   .contact {
       padding: 0rem 1rem;
