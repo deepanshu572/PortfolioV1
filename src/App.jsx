@@ -208,9 +208,11 @@ function App() {
     });
   }
   coursourAnimation();
+ 
 
   return (
     <>
+  
       <Loader />
       <div className="main">
         <Navbar />
