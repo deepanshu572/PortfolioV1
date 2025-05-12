@@ -48,7 +48,7 @@ const Contact = () => {
       <div className="contact_holder location">
         <h1>Address</h1>
         <p>Dr colony rims J block bariatu ranchi ,India</p>
-        <p>krdeepanshu572@gmail.com</p>
+        <p onClick={()=>location.href="mailto:krdeepanshu572@gmail.com"}> krdeepanshu572@gmail.com</p>
 
       </div>
       {/* <div className="contact_holder mail">
@@ -60,17 +60,18 @@ const Contact = () => {
       <TbBrandLinkedinFilled />
         <h3>Linkedin</h3>
       </div>
-      <div className="contact_holder additional git">
+      <div onClick={()=>location.href="https://github.com/deepanshu572/"} className="contact_holder additional git">
       <FaGithub />
         <h3>Github</h3>
       </div>
      
-      <div className="contact_holder additional facebook">
+      <div className="contact_holder additional facebook" >
+        
       <FaFacebook />
 
         <h3>Facebook</h3>
       </div>
-      <div className="contact_holder additional insta">
+      <div className="contact_holder additional insta" onClick={()=>location.href="https://www.instagram.com/anuraag2308?igsh=MXd2Y2N1eGN6eW1kdg=="}>
       <AiFillInstagram />
 
         <h3>Instagram</h3>

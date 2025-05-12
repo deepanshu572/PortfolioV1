@@ -8,6 +8,7 @@ import robot from '../assets/robot.png'
 import kalam from '../assets/kalam.png'
 import mygalla from '../assets/mygalla.png'
 import yt from '../assets/yt.png'
+import mygallaApp from '../assets/mygallaApp.png'
 
 
 const Project = () => {
@@ -175,6 +176,46 @@ const Project = () => {
                                 </svg>
                             </span></a>
                         </div>
+                    </div>
+                </div>
+                   <div className="project1" id="project5">
+                    <div className="circle circle1">
+                </div>
+                   
+                    <div className="right">
+                        <b>🛍️ MyGalla – Responsive E-Commerce Website with Admin Panel</b>
+                        <p>MyGalla is a fully responsive, modern, and user-centric e-commerce web application designed to offer a seamless shopping experience across all devices. This project includes both a customer-facing storefront and a fully integrated admin panel for managing the platform efficiently.</p>
+                        <div className="needs">
+                            <div className="needs_skills_img">
+                                <img src={html} alt=""/>
+                                <p>HTML</p>
+                            </div>
+                            <div className="needs_skills_img">
+                                <img src={css} alt=""/>
+                                <p>css</p>
+                            </div>
+                            <div className="needs_skills_img">
+                                <img src={js} alt=""/>
+                                <p>Js</p>
+                            </div>
+                        </div>
+                        <div className="source">
+                        
+                        <a target="_blank" href="https://ecommerce-mg-seven.vercel.app/">
+                            <span>
+                                Live demo
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                    strokeLinejoin="round" className="tabler-icon tabler-icon-external-link">
+                                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+                                    <path d="M11 13l9 -9"></path>
+                                    <path d="M15 4h5v5"></path>
+                                </svg>
+                            </span></a>
+                        </div>
+                    </div>
+                     <div className="left">
+                     <a  target="_blank" href="https://ecommerce-mg-seven.vercel.app/"><img className="imdb" src={mygallaApp} alt=""/></a>   
                     </div>
                 </div>
              </div>

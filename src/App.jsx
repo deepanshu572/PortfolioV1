@@ -81,7 +81,7 @@ function App() {
         // )
 
 
-    gsap.from(".box_content h4 , .box_content p , .box_eduction b ,education b", {
+    gsap.from(".box_content h4 , .box_content p , .box_eduction b , .education b , .cv_btn a", {
       opacity: 0,
       duration: 1.2,
       x : 50,
@@ -155,7 +155,7 @@ function App() {
           "sameTime"
         );
     }
-    ["#project1", "#project2", "#project3", "#project4"].forEach(
+    ["#project1", "#project2", "#project3", "#project4" , "#project5"].forEach(
       createProjectAnimation
     );
 
