@@ -11,7 +11,8 @@ const Loader = () => {
         </div>
         <div className="bottom_loader">
           <div className="bottom_left">
-            <h3>I DEVELOP 3D VISUALS , USER INTERFACES AND WEB APPLICATION</h3>
+            <h3>I DEVELOP USER-FRIENDLY INTERFACES AND WEB APPLICATIONS.</h3>
+            {/* <h3>I DEVELOP 3D VISUALS , USER INTERFACES AND WEB APPLICATION</h3> */}
             <span>Loading...</span>
           </div>
           <div className="bottom_right">

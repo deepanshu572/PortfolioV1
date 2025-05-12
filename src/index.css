@@ -422,8 +422,21 @@ font-family: "Special Gothic Expanded One", sans-serif !important;
   visibility: hidden;
   padding-bottom: 0;
 }
+
 .left .imdb:hover{
-  transform: translateY(-48%);
+  transform: translateY(-79.8%);
+  transition: transform 10s ease-in-out 0s;
+}
+.left .galla:hover{
+  transform: translateY(-85%);
+  transition: transform 10s ease-in-out 0s;
+}
+.left .rob:hover{
+  transform: translateY(-85%);
+  transition: transform 10s ease-in-out 0s;
+}
+.left .gallaApp:hover{
+  transform: translateY(-58%);
   transition: transform 10s ease-in-out 0s;
 }
 /* .left .coin:hover{
@@ -827,7 +840,10 @@ a.nav-link {
   align-items: center;
   gap: 25px;
 }
-.flex-span div svg{
+.flex-span div a {
+  color: #fff;
+}
+.flex-span div a svg{
   width: 35px;
   height: 35px;
 }
@@ -916,8 +932,11 @@ a.nav-link {
     padding: 10px 39px;
 
   }
+
   .cv_btn a{
     position: unset !important;
+            width: 42%;
+            text-align: center;
   }
   .right_text{
     position: unset;
@@ -1023,8 +1042,12 @@ a.nav-link {
 }
 
 @media screen and (max-width: 700px) {
+  .footer{
+   padding-top:  108px !important;
+  }
   #project1 ,
-  #project3{
+  #project3,
+  #project5{
       flex-wrap: wrap-reverse;
   }
 }

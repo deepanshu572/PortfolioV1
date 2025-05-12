@@ -56,7 +56,7 @@ const Contact = () => {
         <p>Dr colony rimd J block bariatu ranchi ,India</p>
 
       </div> */}
-       <div className="contact_holder additional linkdin">
+       <div onClick={()=>location.href="https://www.linkedin.com/in/deepanshu-kr-0852a92a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} className="contact_holder additional linkdin">
       <TbBrandLinkedinFilled />
         <h3>Linkedin</h3>
       </div>

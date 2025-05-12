@@ -54,12 +54,15 @@ const Hero = () => {
               based in Ranchi,India. 🚩
             </p>
             <div className="flex-span">
-              <div>
+              <div >
+                <a href="https://www.linkedin.com/in/deepanshu-kr-0852a92a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <FaLinkedin />
-
+              </a>
               </div>
               <div>
+                <a href="https://github.com/deepanshu572/">
               <FaGithub />
+              </a>
 
               </div>
             </div>

@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="box_eduction">
           <div className="education">
-          <b>Education 🚩</b>
+          <b>Education 🎓</b>
             <div className="box_content">
               <h4>Dr. Shyama Prasad Mukherjee University, Ranchi</h4>
               <p>
@@ -38,7 +38,7 @@ const About = () => {
             </div>
             </div>
             <div className="other_education">
-            <b>Certificate Courses 🚩</b>
+            <b>Certificate Courses 📝 </b>
             <div className="box_content">
               <h4>Web Development Course – Kalam Academy, Ranchi</h4>
               <p>
@@ -47,16 +47,16 @@ const About = () => {
             </div>
             </div>
             <div className="job">
-            <b>Job 🚩</b>
+            <b>Job 💻</b>
             <div className="box_content">
-              <h4>Sysroot Solution – Front-End Developer (UI/UX), Ranchi 🚩</h4>
+              <h4>Sysroot Solution – Front-End Developer (UI/UX), Ranchi </h4>
               <p>
               Worked as a Junior Front-End Developer for 1.5 years, building responsive and user-friendly web interfaces using HTML, CSS, JavaScript, Bootstrap, and Material UI (basic). Specialized in clean, optimized code and dynamic UI design, collaborating closely with teams to deliver quality web applications.
               </p>
             </div>
             </div>
             <div className="achievment">
-            <b className="head_box">Acievements 🚩</b>
+            <b className="head_box">Acievements 🏅</b>
             <div className="box_content">
               <h4>UI Design Selected – React Frontend Developer Interview, Cordiela IT Company, Mumbai</h4>
               <p>My UI design was selected in the first round of the React Frontend Developer interview at Cordiela, a Mumbai-based IT company, highlighting my skills in UI/UX and component-based design.]</p>

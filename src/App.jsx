@@ -168,7 +168,7 @@ function App() {
         scroller: "body",
         start: "top 80%",
         end: "top 20%",
-        scrub: true,
+        marker : true,
       },
     }),
 

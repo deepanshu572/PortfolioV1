@@ -31,7 +31,7 @@ const Project = () => {
                     <div className="right">
                         
                         <div className="head_name">
-                        <h1>Robotic Branding Website </h1>
+                        <h1>🤖 Robotic Branding Website  </h1>
                     </div>
                         <p> I developed a responsive and optimized website for Robotic Branding using React.js and Tailwind CSS, focused on modern web design, clean UI, and a smooth user experience..</p>
                         <div className="needs ">
@@ -61,7 +61,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="left">
-                        <a  target="_blank" href="https://robotbranding-v3.vercel.app/"><img className="imdb" src={robot} alt=""/></a>   
+                        <a  target="_blank" href="https://robotbranding-v3.vercel.app/"><img className="rob" src={robot} alt=""/></a>   
                        </div>
                 </div>
                 <div className="project1"  id="project2">
@@ -71,7 +71,7 @@ const Project = () => {
                      <a  target="_blank" href="https://www.kalamacademy.org/"><img className="imdb" src={kalam} alt=""/></a>   
                     </div>
                     <div className="right">
-                        <b>KALAM ACADEMY</b>
+                        <b>🏫 KALAM ACADEMY </b>
                         <p> I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript.</p>
                         <div className="needs">
                             <div className="needs_skills_img">
@@ -107,7 +107,7 @@ const Project = () => {
                 <div className="circle circle2">
                 </div>
                     <div className="right">
-                        <b>myGalla </b>
+                        <b>🛒myGalla </b>
                         <p> I built a responsive app branding website for myGalla using HTML, Core CSS, and Vanilla JavaScript, without using any libraries. The project focused on clean design, performance optimization, and a smooth user experience.</p>
                         <div className="needs">
                             <div className="needs_skills_img">
@@ -139,7 +139,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="left">
-                        <a  target="_blank" href="https://mygalla.com/"><img className="myGalla" src={mygalla} alt=""/></a>   
+                        <a  target="_blank" href="https://mygalla.com/"><img className="myGalla galla" src={mygalla} alt=""/></a>   
                        </div>
                 </div>
                 <div className="project1"  id="project4">
@@ -149,7 +149,7 @@ const Project = () => {
                      <a  target="_blank" href="https://you-tube-v3.vercel.app/"><img className="yt" src={yt} alt=""/></a>   
                     </div>
                     <div className="right">
-                        <b>Youtube Clone</b>
+                        <b>🎬 Youtube Clone </b>
                         <p> Developed a fully responsive YouTube Clone using React and the YouTube API. Implemented key features such as video search, video playback, channel details, and related video suggestions. Focused on clean UI, efficient state management, and API integration to mimic the core functionalities of YouTube.</p>
                             <div className="needs">
                                 <div className="needs_skills_img">
@@ -215,7 +215,7 @@ const Project = () => {
                         </div>
                     </div>
                      <div className="left">
-                     <a  target="_blank" href="https://ecommerce-mg-seven.vercel.app/"><img className="imdb" src={mygallaApp} alt=""/></a>   
+                     <a  target="_blank" href="https://ecommerce-mg-seven.vercel.app/"><img className="gallaApp" src={mygallaApp} alt=""/></a>   
                     </div>
                 </div>
              </div>
