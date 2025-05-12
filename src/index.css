@@ -680,6 +680,12 @@ font-family: "Special Gothic Expanded One", sans-serif !important;
   position: relative;
   top: 1px;
 }
+.cv_btn{
+      left: 0;
+    display: flex
+;
+    justify-content: end;
+}
 .cv_btn a{
   text-decoration: none;
       position: absolute;
@@ -910,8 +916,8 @@ a.nav-link {
     padding: 10px 39px;
 
   }
-  .cv_btn button{
-    position: unset;
+  .cv_btn a{
+    position: unset !important;
   }
   .right_text{
     position: unset;
