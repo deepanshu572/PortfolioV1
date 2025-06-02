@@ -1,7 +1,7 @@
 import React from "react";
 import about from "../assets/about.webp";
 import contact from "../assets/contact.png";
-import cv from "../assets/CV.pdf";
+import cv from "../assets/new CV.pdf";
 
 import { FaDownload } from "react-icons/fa";
 
