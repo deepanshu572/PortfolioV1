@@ -9,6 +9,7 @@ import kalam from '../assets/kalam.png'
 import mygalla from '../assets/mygalla.png'
 import yt from '../assets/yt.png'
 import mygallaApp from '../assets/mygallaApp.png'
+import myntra from '../assets/myntra.png'
 
 
 const Project = () => {
@@ -23,7 +24,42 @@ const Project = () => {
             <b className="bold">Each project is a unique piece of development 🧩</b>
         </div>
             <div className="projects-box" >
-                
+                <div className="project1"  id="project6">
+                    <div className="circle circle1">
+                </div>
+                    <div className="left">
+                     <a  target="_blank" href="https://myntra-umber.vercel.app/"><img className="myntra" src={myntra} alt=""/></a>   
+                    </div>
+                    <div className="right">
+                        <b>🧩 Myntra Clone – React + Core CSS </b>
+                        <p>Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.</p>
+                        <div className="needs">
+                            <div className="needs_skills_img react">
+                                <img src={reactLogo} alt=""/>
+                                <p>React</p>
+                            </div>
+                            <div className="needs_skills_img">
+                                <img src={css} alt=""/>
+                                <p>core css</p>
+                            </div>
+                        
+                        </div>
+                        <div className="source">
+                        
+                        <a target="_blank" href="https://myntra-umber.vercel.app/">
+                            <span>
+                                Live demo
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                    strokeLinejoin="round" className="tabler-icon tabler-icon-external-link">
+                                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+                                    <path d="M11 13l9 -9"></path>
+                                    <path d="M15 4h5v5"></path>
+                                </svg>
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
                 <div className="project1" id="project1">
                 
                 <div className="circle circle2">
