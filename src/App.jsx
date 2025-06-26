@@ -155,7 +155,7 @@ function App() {
           "sameTime"
         );
     }
-    ["#project1", "#project2", "#project3", "#project4" , "#project5"].forEach(
+    ["#project1", "#project2", "#project3", "#project4" , "#project5","#project6"].forEach(
       createProjectAnimation
     );
 
