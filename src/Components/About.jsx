@@ -1,101 +1,203 @@
 import React from "react";
-import about from "../assets/about.webp";
-import contact from "../assets/contact.png";
-import cv from "../assets/CV.pdf";
+import dk from "../assets/dk.png";
+import cv from "../assets/document/CV.pdf";
+import { motion } from "motion/react";
+import BlurText from "./DecryptedText";
 
 import { FaDownload } from "react-icons/fa";
 
-
 const About = () => {
   return (
-    <>
-      <div className="about" id="about">
- 
-      <div className="wrap_about">
-        <div className="about-img">
-          <img className="first-img" src={contact} alt="" /> 
+    <div className="about_page my-20 " id="about">
+      <div className="font1  flex items-center justify-center  text-4xl mt-10 my-3 italic text-center ">
+        <motion.div
+          initial={{ x: -200, opacity: 0 }}
+          transition={{
+            ease: [0.22, 1, 0.36, 1],
+            duration: 2,
+          }}
+          whileInView={{ x: 0, opacity: 1 }}
+          className="bgleft"
+        ></motion.div>
+        <div className="overflow-hidden">
+          <motion.h3
+            transition={{
+              ease: [0.22, 1, 0.36, 1],
+              duration: 2,
+            }}
+            initial={{ y: "80%", opacity: 0 }}
+            whileInView={{ y: "0%", opacity: 1 }}
+          >
+            About Me
+          </motion.h3>
         </div>
-        <div className="box_eduction">
-          <div className="education">
-          <b>Education 🎓</b>
-            <div className="box_content">
-              <h4>Dr. Shyama Prasad Mukherjee University, Ranchi</h4>
-              <p>
-                Bachelor of Science (Information Technology) <br />
-                Semester 4, Part 2 (Ongoing)
-              </p>
-            </div>
-            <div className="box_content">
-              <h4>Ram Lakhan Singh Yadav College, Ranchi</h4>
-            <p>
-                Intermediate (1st division) <br />
-                Completed: [2023]
-              </p>
-            </div>
-            <div className="box_content">
-              <h4>Star International School, Ranchi</h4>
-              <p>Matriculation (1st division) Completed: [2021]</p>
-            </div>
-            </div>
-            <div className="other_education">
-            <b>Certificate Courses 📝 </b>
-            <div className="box_content">
-              <h4>Web Development Course – Kalam Academy, Ranchi</h4>
-              <p>
-              Completed a comprehensive Web Development Course at Kalam Academy, Ranchi, gaining hands-on experience in HTML, CSS, JavaScript, and modern frontend technologies.
-              </p>
-            </div>
+        <motion.div
+          initial={{ x: 200, opacity: 0 }}
+          transition={{
+            ease: [0.22, 1, 0.36, 1],
+            duration: 2,
+          }}
+          whileInView={{ x: 0, opacity: 1 }}
+          className="bgright"
+        ></motion.div>
+      </div>
+      <div className="box_about flex px-10 pr-5 gap-15 py-5 sm:gap-2 sm:px-20 flex-col-reverse sm:flex-row-reverse items-center justify-center">
+        <div className="one_wrap flex flex-row-reverse ">
+          <div className="left_sec_about font2 px-7 pr-0 sm:w-3/4">
+            <motion.h2
+              initial={{ y: 10, opacity: 0 }}
+              transition={{
+                ease: [0.22, 1, 0.36, 1],
+                duration: 2,
+              }}
+              whileInView={{ y: 0, opacity: 1 }}
+              className="text-3xl font-bold pb-2"
+            >
+              ✌ Hello!
+            </motion.h2>
+            <motion.p
+              initial={{ y: 10, opacity: 0 }}
+              transition={{
+                ease: [0.22, 1, 0.36, 1],
+                duration: 2,
+              }}
+              whileInView={{ y: 0, opacity: 1 }}
+              className="text-sm pb-2 pl-4"
+            >
+              I am Deepanshu Kumar
+            </motion.p>
+            <BlurText
+              text="I’m a Frontend Developer with 1.6 years of experience at Sysroot Solution and Kalam Academy, skilled in HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, Framer Motion, and GSAP, creating responsive and engaging user interfaces."
+              delay={150}
+              animateBy="words"
+              direction="top"
+              className="text-[13px] pl-4 text-gray-400 font2 font-light"
+            />
+            <div className="job">
+              <div className="pb-2">
+                <h3 className="py-2 pt-3">💻 Exprience</h3>
+                <BlurText
+                  text=" Sysroot Solution [1 year]"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-xs pl-4"
+                />
+                <BlurText
+                  text=" Front-End Developer (UI/ UX)"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-[11px] pt-1 pl-4 text-gray-400 font2 font-light"
+                />
+              </div>
+              <div className="pb-2">
+                <BlurText
+                  text="Kalam academy [6 month job + 3 month internship]"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-xs pl-4"
+                />
+                <BlurText
+                  text=" Front-End Developer (UI/ UX)"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-[11px] pl-4 pt-1 text-gray-400 font2 font-light"
+                />
+              </div>
             </div>
             <div className="job">
-            <b>Job 💻</b>
-            <div className="box_content">
-              <h4>Sysroot Solution – Front-End Developer (UI/UX), Ranchi </h4>
-              <p>
-              Worked as a Junior Front-End Developer for 1.5 years, building responsive and user-friendly web interfaces using HTML, CSS, JavaScript, Bootstrap, and Material UI (basic). Specialized in clean, optimized code and dynamic UI design, collaborating closely with teams to deliver quality web applications.
-              </p>
+              <div className="pb-2">
+                <BlurText
+                  text="🏅Acievements"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="py-2 pt-3"
+                />
+                <BlurText
+                  text="Cordiela - Mumbai"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-xs pl-4"
+                />
+                <BlurText
+                  text=" UI Design Selected – React Frontend Developer Interview"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-[11px] pl-4 pt-1 text-gray-400 font2 font-light"
+                />
+                <BlurText
+                  text="Certificate - Kalam academy"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-xs pl-4 pt-2"
+                />
+                <BlurText
+                  text="Full stack web developer "
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-[11px] pl-4 pt-1 text-gray-400 font2 font-light"
+                />
+                <BlurText
+                  text="Certificate - Sheryians Coding School"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-xs pl-4 pt-2"
+                />
+                <BlurText
+                  text="Advanced Fronted Development"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-[11px] pl-4 pt-1 text-gray-400 font2 font-light"
+                />
+              </div>
             </div>
-            </div>
-            <div className="achievment">
-            <b className="head_box">Acievements 🏅</b>
-            <div className="box_content">
-              <h4>UI Design Selected – React Frontend Developer Interview, Cordiela IT Company, Mumbai</h4>
-              <p>My UI design was selected in the first round of the React Frontend Developer interview at Cordiela, a Mumbai-based IT company, highlighting my skills in UI/UX and component-based design.]</p>
-            </div>
-            </div>
-           <div className="cv_btn">
-            <a href={cv} download="CustomFilename.pdf">
-  <button><FaDownload />
-        Download CV</button>
-</a>
-           
-           </div>
+
+            <motion.a
+              href={cv}
+              download="cv.pdf"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                ease: [0.22, 1, 0.36, 1],
+                duration: 2,
+              }}
+              className="download text-xs mt-2 flex gap-1 px-0 py-3 sm:px-2 sm:py-2 bg-black border-1 border-gray-400 active:scale-[0.8] w-2/3 sm:w-1/3 text-center justify-center rounded-full  "
+            >
+              <FaDownload />
+              <p>Download CV</p>
+            </motion.a>
           </div>
-          </div>
-        {/* <div className="about-text">
-          <small>ABOUT ME</small>
-          <br />
-         
-         
-          <b>
-            {" "}
-            A dedicated Front-end Developer (UI/UX) based in India, Ranchi 🚩
-          </b>
-          <br />
-          <p>
-            As a Junior Front-End Developer at Sysro ot Solution in Ranchi, with
-            1.5 years of expe rience, I possess an impressive arsenal of skills
-            in HTML, CSS, JavaScript, React, Tailwind, Bootstrap, and basic
-            knowledge of Material UI. I excel in designing and maintaining
-            responsive websites that offer a smooth user experience. My
-            expertise lies in crafting dynamic, engaging interfaces by writing
-            clean and optimized code, while utilizing cutting-edge development
-            tools and techniques. I am a team player who thrives when
-            collaborating with cross-functional teams to build outstanding web
-            applications.{" "}
-          </p>
-        </div> */}
+          <motion.div
+            initial={{ height: "0" }}
+            whileInView={{ height: "500px" }}
+            viewport={{ once: "true" }}
+            transition={{ duration: 2, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            className="line bg-gray-400 w-[1px] relative flex flex-col gap-20 "
+          >
+            <div className="circ absolute top-[27px] sm:top-[15px] left-[-5px] border-gray-200 bg-black rounded-full border-3 w-3 h-3"></div>
+            <div className="circ absolute top-[41%] sm:top-[33%] left-[-5px] border-gray-200 bg-black rounded-full border-3 w-3 h-3"></div>
+            <div className="circ absolute top-[71%] sm:top-[60%] left-[-5px] border-gray-200 bg-black rounded-full border-3 w-3 h-3"></div>
+          </motion.div>
+        </div>
+        <div className="right_sec_about w-[26rem] sm:w-[35rem]">
+          <img
+            className="w-full h-full object-cover bg-remove"
+            src={dk}
+            alt=""
+          />
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
