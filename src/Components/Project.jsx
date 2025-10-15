@@ -8,6 +8,7 @@ import robot from "../assets/robot.png";
 import kalam from "../assets/kalam.png";
 import mygalla from "../assets/mygalla.png";
 import yt from "../assets/yt.png";
+import portfolio from "../assets/portfolio.png";
 import mygallaApp from "../assets/mygallaApp.png";
 import myntra from "../assets/myntra.png";
 import expoApe from "../assets/expo.png";
@@ -33,6 +34,34 @@ const Project = () => {
     },
     {
       id: 2,
+      class : "yt",
+      name: " Youtube Clone",
+      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
+      img: yt,
+      link: "https://you-tube-v3.vercel.app/",
+      skills: [
+        { name: "React", img: reactLogo },
+        { name: "css", img: css },
+        { name: "talwind", img: talwind },
+
+      ],
+    },
+    {
+      id: 3,
+      class :"portfolio",
+      name: "Portfolio",
+      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
+      img: portfolio,
+      link: "https://portfolio-v1-wine-eight.vercel.app/",
+      skills: [
+         { name: "React", img: reactLogo },
+        { name: "talwind", img: talwind },
+        { name: "framer", img: framer },
+        { name: "Gsap", img: Gsap },
+      ],
+    },
+    {
+      id: 4,
       class: "myntra",
       name: "Myntra Clone – React + Core CSS",
       desc: "Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.",
@@ -44,7 +73,7 @@ const Project = () => {
       ],
     },
     {
-      id: 3,
+      id: 5,
       class :"kalam",
       name: "KALAM ACADEMY",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
@@ -58,7 +87,7 @@ const Project = () => {
     },
 
     {
-      id: 4,
+      id: 6,
       class :"robot",
       name: "Robotic Branding Website",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
@@ -69,18 +98,8 @@ const Project = () => {
         { name: "talwind", img: talwind },
       ],
     },
-    {
-      id: 5,
-      class : "yt",
-      name: " Youtube Clone",
-      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
-      img: yt,
-      link: "https://you-tube-v3.vercel.app/",
-      skills: [
-        { name: "React", img: reactLogo },
-        { name: "css", img: css },
-      ],
-    },
+    
+    
   ];
 
   return (

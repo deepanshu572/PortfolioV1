@@ -81,6 +81,16 @@ body {
   transform: translateY(-89%);
   transition: transform 10s ease-in-out 0s;
 }
+.smooth .yt:hover {
+  position: relative;
+  transform: translateY(-58%);
+  transition: transform 10s ease-in-out 0s;
+}
+.smooth .portfolio:hover {
+  position: relative;
+  transform: translateY(-63%);
+  transition: transform 10s ease-in-out 0s;
+}
 
 .myntra {
   position: relative;
@@ -94,6 +104,16 @@ body {
 }
 
 .kalam {
+  position: relative;
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+}
+.yt {
+  position: relative;
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+}
+.portfolio {
   position: relative;
   transform: translateY(0%);
   transition: transform 10s ease-in-out 0s;
