@@ -298,9 +298,14 @@ body {
 
 
 .shadow_nav {
-        background: rgb(56 56 56 / 17%);
+        /* background: rgb(56 56 56 / 17%);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13.2px);
+    -webkit-backdrop-filter: blur(13.2px);
+    border: 1px solid #1c1b1ba6; */
+        background: rgb(0 0 0 / 76%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 0%);
+    backdrop-filter: blur(68.2px);
     -webkit-backdrop-filter: blur(13.2px);
     border: 1px solid #1c1b1ba6;
 }
