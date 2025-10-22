@@ -75,7 +75,7 @@ const Hero = () => {
                   >
                     Front-End
                   </motion.h1>
-                  <motion.img
+                  {/* <motion.img 
                     transition={{
                       ease: [0.22, 1, 0.36, 1],
                       duration: 1,
@@ -87,6 +87,7 @@ const Hero = () => {
                     src={hand}
                     alt=""
                   />
+                  */}
                 </div>
                 <div>
                   <div className="overflow-hidden">
