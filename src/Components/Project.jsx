@@ -65,7 +65,7 @@ const Project = () => {
     {
       id: 4,
       class: "myntra",
-      name: "Myntra Clone – React + Core CSS",
+      name: "Myntra Clone – Ecommerce",
       desc: "Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.",
       img: myntra,
       link: "https://myntra-umber.vercel.app/",
@@ -77,7 +77,7 @@ const Project = () => {
     {
       id: 5,
       class :"kalam",
-      name: "KALAM ACADEMY",
+      name: "Kalam Academy - Academic Website",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
       img: kalam,
       link: "https://www.kalamacademy.org/",
@@ -103,7 +103,7 @@ const Project = () => {
     {
       id: 6,
       class :"Cyber",
-      name: "CYBERFICTION ANIMATED WEBSITE",
+      name: "CYBERFICTION - awwwards website",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
       img: Cyber,
       link: "https://cyberfiction-ruddy.vercel.app/",
