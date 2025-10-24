@@ -9,6 +9,8 @@ import kalam from "../assets/kalam.png";
 import mygalla from "../assets/mygalla.png";
 import yt from "../assets/yt.png";
 import portfolio from "../assets/portfolio.png";
+import Cyber from "../assets/cyber.png";
+
 import mygallaApp from "../assets/mygallaApp.png";
 import myntra from "../assets/myntra.png";
 import expoApe from "../assets/expo.png";
@@ -86,13 +88,25 @@ const Project = () => {
       ],
     },
 
+    // {
+    //   id: 6,
+    //   class :"robot",
+    //   name: "Robotic Branding Website",
+    //   desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
+    //   img: robot,
+    //   link: "https://robotbranding-v3.vercel.app/",
+    //   skills: [
+    //     { name: "React", img: reactLogo },
+    //     { name: "talwind", img: talwind },
+    //   ],
+    // },
     {
       id: 6,
-      class :"robot",
-      name: "Robotic Branding Website",
+      class :"Cyber",
+      name: "CYBERFICTION ANIMATED WEBSITE",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
-      img: robot,
-      link: "https://robotbranding-v3.vercel.app/",
+      img: Cyber,
+      link: "https://cyberfiction-ruddy.vercel.app/",
       skills: [
         { name: "React", img: reactLogo },
         { name: "talwind", img: talwind },
