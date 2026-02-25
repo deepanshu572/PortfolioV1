@@ -1,5 +1,6 @@
 import React from "react";
 import dk from "../assets/dk.png";
+import dk2 from "../assets/dk3.png";
 import cv from "../assets/document/CV.pdf";
 import { motion } from "motion/react";
 import BlurText from "./DecryptedText";
@@ -192,7 +193,7 @@ const About = () => {
         <div className="right_sec_about w-[26rem] sm:w-[35rem]">
           <img
             className="w-full h-full object-cover bg-remove"
-            src={dk}
+            src={dk2}
             alt=""
           />
         </div>
