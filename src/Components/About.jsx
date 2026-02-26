@@ -101,7 +101,7 @@ const About = () => {
                   className="text-xs pl-4"
                 />
                 <BlurText
-                  text=" Front-End Developer (UI/ UX)"
+                  text="Full stack web developer"
                   delay={150}
                   animateBy="words"
                   direction="top"
