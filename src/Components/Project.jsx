@@ -9,7 +9,7 @@ import kalam from "../assets/kalam.png";
 import mygalla from "../assets/mygalla.png";
 import yt from "../assets/yt.png";
 import portfolio from "../assets/portfolio.png";
-import INV from "../assets/image.png"
+import Inventory from "../assets/image.png"
 import Cyber from "../assets/cyber.png";
 
 import mygallaApp from "../assets/mygallaApp.png";
@@ -54,7 +54,7 @@ const Project = () => {
   class: "inventory",
   name: "Inventory Management System",
   desc: "I developed a full Inventory Management System that helps manage products, stock, and user data efficiently. The system includes features like product listing, stock tracking, and basic user management with a responsive interface. It was built using HTML, CSS, JavaScript for the frontend and PHP with MySQL for backend data handling.",
-  img: INV,
+  img: Inventory,
   link: "https://ims-system.ct.ws/",
   skills: [
     { name: "HTML", img: html },
