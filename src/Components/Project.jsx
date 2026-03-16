@@ -62,7 +62,7 @@ const Project = () => {
     { name: "JavaScript", img: js },
     { name: "PHP", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/3840px-PHP-logo.svg.png" },
   ],
-}
+},
     {
       id: 4,
       class: "myntra",
