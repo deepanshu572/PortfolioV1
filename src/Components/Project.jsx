@@ -175,7 +175,7 @@ const Project = () => {
             initial={{  opacity: 0 }}
             whileInView={{  opacity: 1 }}  className="sm:w-70 sm:h-45 w-86 h-52 overflow-hidden rounded-2xl smooth ">
                 <a target="_blank" href={item.link}>
-                  <img className={` w-full ${item.class} `} src={item.img} alt="" />
+                  <img className={` w-full h-full object-cover ${item.class} `} src={item.img} alt="" />
                 </a>
               </motion.div>
               <div className="py-3">
