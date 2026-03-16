@@ -54,7 +54,7 @@ const Project = () => {
   class: "inventory",
   name: "Inventory Management System",
   desc: "I developed a full Inventory Management System that helps manage products, stock, and user data efficiently. The system includes features like product listing, stock tracking, and basic user management with a responsive interface. It was built using HTML, CSS, JavaScript for the frontend and PHP with MySQL for backend data handling.",
-  img: portfolio,
+  img: INV,
   link: "https://ims-system.ct.ws/",
   skills: [
     { name: "HTML", img: html },
