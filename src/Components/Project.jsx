@@ -9,6 +9,7 @@ import kalam from "../assets/kalam.png";
 import mygalla from "../assets/mygalla.png";
 import yt from "../assets/yt.png";
 import portfolio from "../assets/portfolio.png";
+import INV from "../assets/image.png"
 import Cyber from "../assets/cyber.png";
 
 import mygallaApp from "../assets/mygallaApp.png";
@@ -48,20 +49,20 @@ const Project = () => {
 
       ],
     },
-    {
-      id: 3,
-      class :"portfolio",
-      name: "Portfolio",
-      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
-      img: portfolio,
-      link: "https://portfolio-v1-wine-eight.vercel.app/",
-      skills: [
-         { name: "React", img: reactLogo },
-        { name: "talwind", img: talwind },
-        { name: "framer", img: framer },
-        { name: "Gsap", img: Gsap },
-      ],
-    },
+   {
+  id: 3,
+  class: "inventory",
+  name: "Inventory Management System",
+  desc: "I developed a full Inventory Management System that helps manage products, stock, and user data efficiently. The system includes features like product listing, stock tracking, and basic user management with a responsive interface. It was built using HTML, CSS, JavaScript for the frontend and PHP with MySQL for backend data handling.",
+  img: portfolio,
+  link: "https://ims-system.ct.ws/",
+  skills: [
+    { name: "HTML", img: html },
+    { name: "CSS", img: css },
+    { name: "JavaScript", img: js },
+    { name: "PHP", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/3840px-PHP-logo.svg.png" },
+  ],
+}
     {
       id: 4,
       class: "myntra",
