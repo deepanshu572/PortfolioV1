@@ -6,7 +6,7 @@ body {
 .no_scroll_img{
   height : 100%;
   object-fit: cover;
-  
+     object-position: top;
 }
 
 .font1 {
