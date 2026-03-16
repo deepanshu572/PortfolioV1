@@ -51,7 +51,7 @@ const Project = () => {
     },
    {
   id: 3,
-  class: "inventory",
+  class: "no_scroll_img",
   name: "Inventory Management System",
   desc: "I developed a full Inventory Management System that helps manage products, stock, and user data efficiently. The system includes features like product listing, stock tracking, and basic user management with a responsive interface. It was built using HTML, CSS, JavaScript for the frontend and PHP with MySQL for backend data handling.",
   img: Inventory,
@@ -103,7 +103,7 @@ const Project = () => {
     // },
     {
       id: 6,
-      class :"Cyber",
+      class :"Cyber no_scroll_img",
       name: "CYBERFICTION - awwwards website",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
       img: Cyber,
