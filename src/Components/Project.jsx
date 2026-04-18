@@ -21,7 +21,7 @@ import { motion } from "motion/react";
 
 const Project = () => {
   const projectData = [
-    {
+    
      {
       id: 1,
       class :"kalam",
@@ -76,6 +76,7 @@ const Project = () => {
         { name: "talwind", img: talwind },
       ],
     },
+    {
        id: 5,
       class: "Expo",
       name: "ExpoApe - agency website",
