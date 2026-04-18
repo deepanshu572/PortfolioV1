@@ -22,17 +22,17 @@ import { motion } from "motion/react";
 const Project = () => {
   const projectData = [
     {
+     {
       id: 1,
-      class: "Expo",
-      name: "ExpoApe - agency website",
-      desc: "Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.",
-      img: expoApe,
-      link: "https://expoace.vercel.app/",
+      class :"kalam",
+      name: "Kalam Academy - Academic Website",
+      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
+      img: kalam,
+      link: "https://www.kalamacademy.org/",
       skills: [
-        { name: "React", img: reactLogo },
-        { name: "talwind", img: talwind },
-        { name: "framer", img: framer },
-        { name: "Gsap", img: Gsap },
+        { name: "html", img: html },
+        { name: "css", img: css },
+        { name: "js", img: js },
       ],
     },
     {
@@ -41,7 +41,7 @@ const Project = () => {
       name: " Youtube Clone",
       desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
       img: yt,
-      link: "https://you-tube-v3.vercel.app/",
+      link: "https://yt-player-mern.onrender.com/",
       skills: [
         { name: "React", img: reactLogo },
         { name: "css", img: css },
@@ -64,28 +64,29 @@ const Project = () => {
   ],
 },
     {
-      id: 4,
-      class: "myntra",
-      name: "Myntra Clone – Ecommerce",
-      desc: "Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.",
-      img: myntra,
-      link: "https://myntra-umber.vercel.app/",
+
+            id: 4,
+      class :"Cyber no_scroll_img",
+      name: "CYBERFICTION - awwwards website",
+      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
+      img: Cyber,
+      link: "https://cyberfiction-ruddy.vercel.app/",
       skills: [
         { name: "React", img: reactLogo },
-        { name: "css", img: css },
+        { name: "talwind", img: talwind },
       ],
     },
-    {
-      id: 5,
-      class :"kalam",
-      name: "Kalam Academy - Academic Website",
-      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
-      img: kalam,
-      link: "https://www.kalamacademy.org/",
+       id: 5,
+      class: "Expo",
+      name: "ExpoApe - agency website",
+      desc: "Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.",
+      img: expoApe,
+      link: "https://expoace.vercel.app/",
       skills: [
-        { name: "html", img: html },
-        { name: "css", img: css },
-        { name: "js", img: js },
+        { name: "React", img: reactLogo },
+        { name: "talwind", img: talwind },
+        { name: "framer", img: framer },
+        { name: "Gsap", img: Gsap },
       ],
     },
 
@@ -103,14 +104,14 @@ const Project = () => {
     // },
     {
       id: 6,
-      class :"Cyber no_scroll_img",
-      name: "CYBERFICTION - awwwards website",
-      desc: " I built a responsive and optimized website for Kalam Academy, an IT company offering courses like Digital Marketing (DM) and Web Development (WDC), using HTML, core CSS without using any library, and Vanilla JavaScript",
-      img: Cyber,
-      link: "https://cyberfiction-ruddy.vercel.app/",
+      class: "myntra",
+      name: "Myntra Clone – Ecommerce",
+      desc: "Developed a responsive e-commerce website using React.js and Core CSS, replicating Myntra’s UI and core features like product listing, cart, and wishlist. Focused on clean components and state management with React hooks.",
+      img: myntra,
+      link: "https://myntra-umber.vercel.app/",
       skills: [
         { name: "React", img: reactLogo },
-        { name: "talwind", img: talwind },
+        { name: "css", img: css },
       ],
     },
     
